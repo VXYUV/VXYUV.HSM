@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[Your Group Name] was a K-pop group that disbanded before debut. This official website serves as a tribute to the members, their journey, and their unreleased music. Thank you for your support!">
+    <title>VXYUV - Official Website</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f1efe7;
+            color: #928686;
+            text-align: center;
+        }
+
+        /* Navbar */
+        nav {
+            background: #928686;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #b5a7a7;
+            transition: 0.3s;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        .hero h1 {
+            font-size: 50px;
+        }
+
+        /* Members Section */
+        section {
+            padding: 50px 20px;
+        }
+        .members {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .member-card {
+            background: #928686;
+            color: white;
+            width: 200px;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .member-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Discography */
+        .discography {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .album {
+            background: #928686;
+            color: white;
+            width: 250px;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .album img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* FAQ */
+        .faq {
+            padding: 20px;
+        }
+        .faq-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #928686;
+            color: white;
+            border-radius: 5px;
+        }
+
+        /* Contact */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #928686;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background: #928686;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Social Media */
+        .social-media {
+            margin: 30px 0;
+        }
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #928686;
+        }
+        .social-media a:hover {
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#members">Members</a>
+        <a href="#discography">Discography</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="thunder_20250225_220215_0000.png" alt="Group Logo"> <!-- Add Logo -->
+        <h1>VXYUV</h1>
+        <p>Thank You For Supporting Us</p>
+    </div>
+
+    <!-- Members Section -->
+    <section id="members">
+        <h2>Meet the Members</h2>
+        <div class="members">
+            <div class="member-card">
+                <img src="91b3a940-9261-11cc-ac79-bb3752649ca8.jpg" alt="Member 1">
+                <p>Xien Chouzu - Leader, Vocalist</p>
+            </div>
+            <div class="member-card">
+                <img src="734f75c0a6eba657c010129d93560fe0.jpg" alt="Member 2">
+                <p>Jung Eunji - Main Dancer, Rapper</p>
+            </div>
+            <div class="member-card">
+                <img src="Tak berjudul250_20241031215451.png" alt="Member 3">
+                <p>Kim Myeji - Lead Vocalist, Visual</p>
+            </div>
+            <div class="member-card">
+                <img src="e179241d75798ef5902b6e4b7d5415f5.jpg" alt="Member 4">
+                <p>Shin Harin - Maknae, Rapper</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discography Section -->
+    <section id="discography">
+        <h2>Discography</h2>
+        <div class="discography">
+            <div class="album">
+                <img src="VXYUV_20241101_213952_0000.png" alt="Album 1">
+                <p>Debut Album (Y:UNIVERSE)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2>FAQ</h2>
+        <div class="faq-item">Q: Why did the group disband before debut?</div>
+        <div class="faq-item">Q: What are the members' future plans?</div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Social Media Links -->
+    <div class="social-media">
+        <h2>Follow Us</h2>
+        <a href="https://youtube.com/@vxyuv_official" target="_blank">YouTube</a>
+        <a href="https://tiktok.com/@vxyuv_official" target="_blank">TikTok</a>
+        <a href="https://instagram.com/vxyuv_official" target="_blank">TikTok</a>
+        <a href="https://twitter.com/vxyuv_official" target="_blank">X (Twitter)</a>
+        <a href="https://open.spotify.com/artist/1cfx98rZjCYGwmlEt1kGdY?si=DP1T3CpnRYicvUm_WobE_g" target="_blank">Spotify</a>
+    </div>
+
+</body>
+</html>
